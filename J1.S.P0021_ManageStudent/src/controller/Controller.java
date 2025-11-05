@@ -101,17 +101,17 @@ public class Controller {
         System.out.println(result);
     }
 
-    public void generateStudent() throws Exception {
-        studentManager.add(new Student("S1", "Tran Quoc Tuan", "Fall2022", Course.JAVA));
-        studentManager.add(new Student("S1", "Tran Quoc Tuan", "Summer2022", Course.DOT_NET));
-        studentManager.add(new Student("S1", "Tran Quoc Tuan", "Fall2022", Course.C_CPP));
-        studentManager.add(new Student("S2", "Doan Duy Huy", "Fall2021", Course.JAVA));
-        studentManager.add(new Student("S2", "Doan Duy Huy", "Spring2022", Course.JAVA));
-        studentManager.add(new Student("S3", "Le Thi Hoa", "Fall2022", Course.DOT_NET));
-        studentManager.add(new Student("S4", "Le Thi Quynh", "Fall2022", Course.JAVA));
-        studentManager.add(new Student("S5", "Le Trong Nhat", "Fall2022", Course.DOT_NET));
-        studentManager.add(new Student("S5", "Le Trong Nhat", "Summer2022", Course.JAVA));
-        studentManager.add(new Student("S6", "Le Van Quyen", "Fall2022", Course.JAVA));
-    }
+    // public void generateStudent() throws Exception {
+    //     studentManager.add(new Student("S1", "Tran Quoc Tuan", "Fall2022", Course.JAVA));
+    //     studentManager.add(new Student("S1", "Tran Quoc Tuan", "Summer2022", Course.DOT_NET));
+    //     studentManager.add(new Student("S1", "Tran Quoc Tuan", "Fall2022", Course.C_CPP));
+    //     studentManager.add(new Student("S2", "Doan Duy Huy", "Fall2021", Course.JAVA));
+    //     studentManager.add(new Student("S2", "Doan Duy Huy", "Spring2022", Course.JAVA));
+    //     studentManager.add(new Student("S3", "Le Thi Hoa", "Fall2022", Course.DOT_NET));
+    //     studentManager.add(new Student("S4", "Le Thi Quynh", "Fall2022", Course.JAVA));
+    //     studentManager.add(new Student("S5", "Le Trong Nhat", "Fall2022", Course.DOT_NET));
+    //     studentManager.add(new Student("S5", "Le Trong Nhat", "Summer2022", Course.JAVA));
+    //     studentManager.add(new Student("S6", "Le Van Quyen", "Fall2022", Course.JAVA));
+    // }
 
 }

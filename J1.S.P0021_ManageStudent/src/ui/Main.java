@@ -21,11 +21,11 @@ public class Main {
      */
     public static void main(String[] args) {
         Controller manager = new Controller();
-        try {
-            manager.generateStudent();
-        } catch (Exception ex) {
-            System.out.println(ex.getMessage());
-        }
+        // try {
+        //     manager.generateStudent();
+        // } catch (Exception ex) {
+        //     System.out.println(ex.getMessage());
+        // }
         while (true) {
             System.out.println("\tWELCOME TO STUDENT MANAGEMENT");
             System.out.println(" 1.Create");
